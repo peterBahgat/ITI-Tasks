@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cookies</title>
+  </head>
+  <body>
+    <form id="registrationForm" action="./profile.html">
+      <div class="row">
+        <label for="name">Enter Your Name:</label>
+        <input type="text" id="name" name="name" required /><br /><br />
+      </div>
+      <div class="row">
+        <label for="age">Enter Your Age:</label>
+        <input type="number" id="age" name="age" required /><br /><br />
+      </div>
+      <div class="row">
+        <label name="gender">Select Your Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required />
+        <label for="male"><img src="./img/1.jpg" alt="male" /></label>
+        <input type="radio" id="female" name="gender" value="female" required />
+        <label for="female"><img src="./img/2.jpg" alt="female" /></label>
+      </div>
+      <br />
+      <br />
+      <div class="row">
+        <label for="color">Select Your Favorite color:</label>
+        <select id="color" name="color" required>
+          <option value="">Select a color</option>
+          <option value="Red">Red</option>
+          <option value="Green">Green</option>
+          <option value="Blue">Blue</option>
+        </select>
+      </div>
+      <br />
+      <br />
+      <div class="row">
+        <input type="submit" value="Submit" id="submit" />
+      </div>
+    </form>
+    <script src="./index.js"></script>
+  </body>
+</html>

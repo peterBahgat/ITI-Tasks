@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AJAX Task</title>
+    <style>
+      table {
+        border: 2px solid black;
+        border-style: solid;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Fill the table</h1>
+      <table>
+        <caption>
+          <button type="button" id="fetch-btn">Fetch Users</button>
+        </caption>
+        <thead>
+          <tr>
+            <th>id</th>
+            <th>name</th>
+            <th>username</th>
+            <th>address</th>
+            <th>phone</th>
+            <th>website</th>
+            <th>company</th>
+          </tr>
+        </thead>
+        <tbody id="body"></tbody>
+      </table>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
