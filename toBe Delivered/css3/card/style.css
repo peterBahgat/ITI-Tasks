@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.card {
+  position: relative; /* Add this line to enable absolute positioning within the card */
+  width: 250px;
+  height: 350px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-top-left {
+  position: absolute; /* Use absolute positioning */
+  top: 10px; /* Adjust top position to move the "A" letter */
+  left: 10px; /* Adjust left position to move the "A" letter */
+}
+
+.card-bottom-right {
+  position: absolute; /* Use absolute positioning */
+  bottom: 10px; /* Adjust bottom position to move the "A" letter */
+  right: 10px; /* Adjust right position to move the "A" letter */
+}
+
+.card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-suit {
+  font-size: 56px;
+}
+
+.card-value {
+  font-size: 80px;
+}

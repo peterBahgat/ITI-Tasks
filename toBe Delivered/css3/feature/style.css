@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#container {
+  background-color: #e3e3e3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  height: 100vh;
+  width: auto;
+}
+
+#top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 3em;
+}
+h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 1em;
+}
+p {
+  color: rgb(142, 141, 141);
+}
+.row-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.element-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.element {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.icon {
+  background-color: white;
+  width: 100px; /* Add proper units (e.g., px) for width */
+  height: 100px; /* Add proper units (e.g., px) for height */
+  border-radius: 50%;
+  border: 4px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  padding: 3rem;
+  box-shadow: inset 0px 0px 0px 4px #e3e3e3;
+  transition: ease all 0.5s;
+}
+i {
+  color: rgb(205, 44, 44);
+  font-size: xx-large;
+  transition: ease all 0.5s;
+}
+.icon:hover {
+  background-color: rgb(205, 44, 44);
+}
+
+.icon:hover i {
+  color: white; /* Change the color of the <i> element when .icon is hovered */
+}
