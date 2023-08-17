@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.grid-parent {
+  display: grid;
+  height: 60vh;
+  width: 35vw;
+  grid-template-areas:
+    'first header header'
+    'first main second'
+    'footer footer second';
+  animation: spin 10s linear infinite; /* Apply the spinning animation */
+}
+
+.grid-child {
+  color: white;
+  padding-top: 10px;
+  margin: 3px;
+  font-size: 30px;
+  text-align: center;
+}
+
+header {
+  background-color: darkgrey;
+  grid-area: header;
+}
+
+footer {
+  background-color: darkgrey;
+  grid-area: footer;
+}
+article {
+  background-color: darkgrey;
+  grid-area: main;
+}
+
+.first {
+  background-color: darkgrey;
+  grid-area: first;
+}
+.second {
+  background-color: darkgrey;
+  grid-area: second;
+}
+
+@media (max-width: 1234px) {
+  .grid-parent {
+    display: grid;
+    height: 55vh;
+    width: 40vw;
+  }
+  .container {
+    background-color: #76d1fe;
+  }
+}
+
+@media (max-width: 1233px) and (min-width: 1215px) {
+  .grid-parent {
+    display: grid;
+    height: 50vh;
+    width: 35vw;
+  }
+  .container {
+    background-color: #cbffa6;
+  }
+}
+@media (max-width: 1214px) and (min-width: 1100px) {
+  .grid-parent {
+    display: grid;
+    height: 45vh;
+    width: 30vw;
+  }
+  .container {
+    background-color: #fff2a6;
+  }
+}
+@media (max-width: 1213px) and (min-width: 768px) {
+  .grid-parent {
+    display: grid;
+    height: 40vh;
+    width: 25vw;
+  }
+  .container {
+    background-color: #e9a6ff;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 567px) {
+  .grid-parent {
+    display: grid;
+    height: 35vh;
+    width: 20vw;
+  }
+  .container {
+    background-color: #ffa6ad;
+  }
+}
+
+/* Spinning animation */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

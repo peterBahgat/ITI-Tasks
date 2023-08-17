@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="/main.js" defer></script>
+    <title>The Flower Blog</title>
+  </head>
+  <body>
+    <header class="bg-light p-2">
+      <div class="container">
+        <h1 class="py-4">The Flower Blog</h1>
+      </div>
+    </header>
+    <nav
+      class="container navbar navbar-expand-lg navbar-dark bg-dark rounded-1 d-flex flex-row justify-content-between align-content-around"
+    >
+      <div class="container d-flex justify-content-between">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Archives</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link subscribe" href="#"
+                ><img src="./Images/rss.png" alt="" /> Subscribe via. RSS</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container py-5">
+      <section id="intro" class="bg-success py-5 rounded-5">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <h2 class="text-white mb-3">
+                Do you love flowers as much as we do?
+              </h2>
+              <p class="text-light">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut.
+              </p>
+            </div>
+            <div class="col-md-6">
+              <img
+                src="images/intro_flower.png"
+                alt="Flower"
+                class="img-fluid rounded-5"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="content" class="container py-4">
+        <div class="row">
+          <div class="col-lg-9">
+            <article class="blogPost bg-light rounded-3 p-4 mb-4">
+              <header>
+                <h2 class="mb-3">This is the title of a blog post</h2>
+                <p class="mb-0 py-4">
+                  Posted on June 29th 2009 by
+                  <a href="#" class="text-dark">Mads Kjaer</a> -
+                  <a href="#comments" class="text-dark">3 comments</a>
+                </p>
+              </header>
+              <div>
+                <p class="mb-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                  euismod tellus eu orci imperdiet nec rutrum lacus blandit.
+                  Cras enim nibh, sodales ultricies elementum vel, fermentum id
+                  tellus. Proin metus odio, ultricies eu pharetra dictum,
+                  laoreet id odio. Curabitur in odio augue. Morbi congue auctor
+                  interdum. Phasellus sit amet metus justo. Phasellus vitae
+                  tellus orci, at elementum ipsum. In in quam eget diam
+                  adipiscing condimentum. Maecenas gravida diam vitae nisi
+                  convallis vulputate quis sit amet nibh. Nullam ut velit
+                  tortor. Curabitur ut elit id nisl volutpat consectetur ac ac
+                  lorem. Quisque non elit et elit lacinia lobortis nec a velit.
+                  Sed ac nisl sed enim consequat porttitor.
+                </p>
+                <figure class="mb-4">
+                  <img
+                    src="Images/flower.png"
+                    alt="Flower"
+                    class="img-fluid rounded"
+                  />
+                  <figcaption class="text-start mt-4">
+                    <i>This is a beautiful flower</i>
+                  </figcaption>
+                </figure>
+                <p class="mb-0">
+                  Pellentesque ut sapien arcu, egestas mollis massa. Fusce
+                  lectus leo, fringilla at aliquet sit amet, volutpat non erat.
+                  Aenean molestie nibh vitae turpis venenatis vel accumsan nunc
+                  tincidunt. Suspendisse id purus vel felis auctor mattis non ac
+                  erat. Pellentesque sodales venenatis condimentum. Aliquam sit
+                  amet nibh nisi, ut pulvinar est. Sed ullamcorper nisi vel
+                  tortor volutpat eleifend. Vestibulum iaculis ullamcorper diam
+                  consectetur sagittis. Quisque vitae mauris ut elit semper
+                  condimentum varius nec nisl. Nulla tempus porttitor dolor ac
+                  eleifend. Proin vitae purus lectus, a hendrerit ipsum. Aliquam
+                  mattis lacinia risus in blandit.
+                </p>
+              </div>
+            </article>
+            <hr />
+            <section id="comments" class="mb-4">
+              <h3 class="my-5">Comments</h3>
+              <article class="bg-light p-3 mb-3 rounded-4 d-flex">
+                <header>
+                  <a href="#" class="text-dark fw-bold">George Washington</a> on
+                  June 29th 2009 at 23:35
+                </header>
+                <p class="mb-0 text-wrap p-4">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut.
+                </p>
+              </article>
+              <article class="bg-light p-3 mb-3 rounded-4 d-flex">
+                <header>
+                  <a href="#" class="text-dark fw-bold">Benjamin Franklin</a> on
+                  June 29th 2009 at 23:40
+                </header>
+                <p class="mb-0 p-4">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut.
+                </p>
+              </article>
+              <article class="bg-light p-3 rounded-4 d-flex">
+                <header>
+                  <a href="#" class="text-dark fw-bold">Barack Obama</a> on June
+                  29th 2009 at 23:59
+                </header>
+                <p class="mb-0 p-4">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut.
+                </p>
+              </article>
+            </section>
+
+            <form action="#" method="post">
+              <h3 class="mb-3">Post a comment</h3>
+              <div class="form-group pt-3 px-5">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" name="name" />
+              </div>
+              <div class="form-group pt-1 px-5">
+                <label for="email">E-mail</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                />
+              </div>
+              <div class="form-group pt-1 px-5">
+                <label for="website">Website</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="website"
+                  name="website"
+                />
+              </div>
+              <div class="form-group pt-1 px-5">
+                <label for="comment">Comment</label>
+                <textarea
+                  class="form-control"
+                  id="comment"
+                  name="comment"
+                  rows="4"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary mt-4 mx-5">
+                Post comment
+              </button>
+            </form>
+          </div>
+
+          <aside class="col-lg-3">
+            <section class="bg-light p-4 mb-4 rounded-3">
+              <header class="mb-3">
+                <h3>Categories</h3>
+              </header>
+              <ul class="list-unstyled p-2">
+                <li><a href="#" class="text-dark">Lorem ipsum dolor</a></li>
+                <li><a href="#" class="text-dark">Sit amet consectetur</a></li>
+                <li><a href="#" class="text-dark">Adipisicing elit sed</a></li>
+                <li><a href="#" class="text-dark">Do eiusmod tempor</a></li>
+                <li><a href="#" class="text-dark">Incididunt ut labore</a></li>
+              </ul>
+            </section>
+            <section class="bg-light p-4 rounded-3">
+              <header class="mb-3">
+                <h3>Archives</h3>
+              </header>
+              <ul class="list-unstyled p-2">
+                <li><a href="#" class="text-dark">December 2008</a></li>
+                <li><a href="#" class="text-dark">January 2009</a></li>
+                <li><a href="#" class="text-dark">February 2009</a></li>
+                <li><a href="#" class="text-dark">March 2009</a></li>
+                <li><a href="#" class="text-dark">April 2009</a></li>
+                <li><a href="#" class="text-dark">May 2009</a></li>
+                <li><a href="#" class="text-dark">June 2009</a></li>
+              </ul>
+            </section>
+          </aside>
+        </div>
+      </section>
+    </div>
+    <footer class="bg-dark text-white p-1">
+      <div class="container py-4">
+        <div class="row">
+          <section class="col-lg-4 mb-4">
+            <header class="mb-3">
+              <h3>About</h3>
+            </header>
+            <p class="p-2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </section>
+          <section class="col-lg-4 mb-4">
+            <header class="mb-3">
+              <h3>Blogroll</h3>
+            </header>
+            <ul class="list-group px-4">
+              <li><a href="#" class="text-white">NETTUTS+</a></li>
+              <li><a href="#" class="text-white">FreelanceSwitch</a></li>
+              <li><a href="#" class="text-white">In The Woods</a></li>
+              <li><a href="#" class="text-white">Netsetter</a></li>
+              <li><a href="#" class="text-white">PSDTUTS+</a></li>
+            </ul>
+          </section>
+          <section class="col-lg-4">
+            <header class="mb-3">
+              <h3>Popular</h3>
+            </header>
+            <ul class="list-group px-4">
+              <li>
+                <a href="#" class="text-white"
+                  >This is the title of a blog post</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white">Lorem ipsum dolor sit amet</a>
+              </li>
+              <li>
+                <a href="#" class="text-white"
+                  >Consectetur adipisicing elit, sed do eiusmod</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white">Duis aute irure dolor</a>
+              </li>
+              <li>
+                <a href="#" class="text-white"
+                  >Excepteur sint occaecat cupidatat</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white"
+                  >Reprehenderit in voluptate velit</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white"
+                  >Officia deserunt mollit anim id est laborum</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white">Lorem ipsum dolor sit amet</a>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

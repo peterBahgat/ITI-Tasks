@@ -1,0 +1,19 @@
+#buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+button {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.326);
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+button:hover {
+  background-color: rgba(0, 0, 0, 0.834);
+  color: aliceblue;
+}

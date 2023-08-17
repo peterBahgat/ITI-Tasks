@@ -1,0 +1,87 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+}
+h1 {
+  color: rgb(51, 86, 87);
+  font-size: xx-large;
+  font-weight: 600;
+  margin-top: 10%;
+  text-size-adjust: inherit;
+  background-color: rgba(128, 128, 128, 0.393);
+  border: 2px solid rgb(51, 86, 87);
+  border-radius: 30px;
+  padding: 2%;
+}
+.container {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  background-color: rgba(128, 128, 128, 0.393);
+  height: 100%;
+  border-radius: 30px;
+  border: 2px solid rgb(51, 86, 87);
+  width: 100dvb;
+}
+
+input[type='text'] {
+  width: 40%;
+  margin: 1%;
+  height: 50px;
+  border-radius: 10px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  border: 2px solid rgb(51, 86, 87);
+  text-align: center;
+  font-size: medium;
+  margin-top: 3%;
+}
+
+input[type='button'],
+button {
+  cursor: pointer;
+  margin: 2%;
+  border: none;
+  background-color: rgb(51, 86, 87);
+  color: white;
+  padding: 2%;
+  font-size: large;
+  border-radius: 10px;
+}
+
+table {
+  font-size: large;
+  border: 2px solid rgb(51, 86, 87);
+  border-collapse: collapse;
+  text-align: center;
+  width: 50%;
+  color: rgb(51, 86, 87);
+  border-radius: 10px;
+  padding: 10%;
+  margin: 2%;
+}
+
+th,
+td {
+  border: 2px solid rgb(51, 86, 87);
+}
+
+th {
+  padding: 1%;
+  width: 10%;
+  font-size: large;
+}
